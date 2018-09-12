@@ -52,7 +52,7 @@
       margin:0;
       width: 100%;
       transition:transform 0.5s;
-      border: 5px solid red; /* add a border just to see how elements are spced out */
+      /*border: 5px solid red;*/ /* add a border just to see how elements are spced out. REMOVED AFTER DEBUG */
       flex: 1 0 auto; /* find out what this does, wes bos doesn't explain ...*/ 
       display: flex;
       justify-content: center;
@@ -78,6 +78,9 @@
 
     .panel.open {
       font-size:40px;
+      flex: 5; /* hmmmmm...???, look it up Fred*/
+      
+
     }
 
   
